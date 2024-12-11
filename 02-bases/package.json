@@ -4,7 +4,10 @@
   "description": "Esta es mi primera aplicación real de Node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "start:dev": "echo 'Hola mundo desde dev'",
+    "start:stag": "echo 'Hola mundo desde dev'"
   },
   "author": "jespejo",
   "license": "MIT"
