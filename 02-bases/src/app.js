@@ -1,12 +1,8 @@
-const {getAge, getUUID} = require('./plugins');
+
+const getPokemonById = require('./js-foundation/06-promises');
 
 
-const {buildMakePerson} = require('./js-foundation/05-factory');
+getPokemonById(1, (pokemon) => {
+    console.log({pokemon});
+});
 
-const makePerson = buildMakePerson({getAge, getUUID});
-
-const obj = {name: 'John', birthdate: '1986-02-14'};
-
-const johnDoe = makePerson(obj);
-
-console.log({johnDoe});
