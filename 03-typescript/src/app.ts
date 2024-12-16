@@ -21,6 +21,6 @@ const findHeroById = (id:number) => {
     return heroes.find(hero => hero.id === id);
 }
 
-const hero = findHeroById(4);
+const hero = findHeroById(1);
 
-console.log(hero?.name ?? 'Hero not found!'); // hero = undefined.name
+console.log(hero?.name ?? 'Hero not found'); // hero = undefined.name
