@@ -8,5 +8,7 @@ import { yarg} from "./plugins/yargs.plugin";
 
 async function main(){
     
+    console.log(yarg);
+    
     
 }
