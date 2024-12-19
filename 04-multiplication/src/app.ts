@@ -1,6 +1,12 @@
 import { yarg} from "./plugins/yargs.plugin";
 
 
-// console.log(process.argv);
 
-console.log(yarg.b);
+(async() => {
+   await main();
+})();
+
+async function main(){
+    
+    
+}
