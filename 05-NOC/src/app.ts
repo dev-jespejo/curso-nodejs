@@ -1,2 +1,10 @@
-export const name:string = 'Jorge';
-console.log(name);
+import { Server } from "./presentation/server";
+
+
+(async() => {
+    main();
+})();
+
+function main(){
+    Server.start();
+}
